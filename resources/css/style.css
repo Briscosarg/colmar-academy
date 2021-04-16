@@ -1,0 +1,9 @@
+* {
+  margin: 0;
+}
+
+header {
+  height: 64px;
+  background-color: pink;
+  margin: 0px 24px;
+}
