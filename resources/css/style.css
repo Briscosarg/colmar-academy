@@ -1,9 +1,47 @@
 * {
   margin: 0;
+  padding: 0;
 }
+
+/* Header */
 
 header {
   height: 64px;
-  background-color: pink;
   margin: 0px 24px;
+}
+
+.logo-name {
+  color: #d3d3d3;
+}
+
+.logo-name p {
+  font-family: Helvetica;
+  font-weight: 600;
+  display: inline;
+}
+
+.colmar {
+  color: #696969;
+}
+
+p.top-right {
+  color: red;
+  display: inline;
+  float: right;
+}
+
+/* Body */
+
+.learn {
+  height: 600px;
+  background-color: #d3d3d3;
+}
+
+.practice {
+  height: 600px;
+}
+
+.learning {
+  height: 600px;
+  background-color: #d3d3d3;
 }
