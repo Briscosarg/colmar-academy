@@ -1,6 +1,7 @@
 * {
   margin: 0;
   padding: 0;
+  font-family: Helvetica;
 }
 
 /* Header */
@@ -10,31 +11,67 @@ header {
   margin: 0px 24px;
 }
 
-.logo-name {
-  color: #d3d3d3;
+.head {
+  display: flex;
+  padding-top: 16px;
 }
 
-.logo-name p {
-  font-family: Helvetica;
-  font-weight: 600;
-  display: inline;
-}
+
+/* Header Text */
 
 .colmar {
   color: #696969;
 }
 
-p.top-right {
-  color: red;
-  display: inline;
-  float: right;
+.academy {
+  color: #d3d3d3;
+}
+
+.colmar, .academy {
+  font-weight: 600;
+  font-size: 20px;
+}
+
+.head p {
+  padding-top: 5px;
+}
+
+.rightside {
+  display: flex;
+  margin-left: auto;
+  width: auto;
+}
+
+.top-right {
+  color: #696969;
+  padding-left: 16px;
+  font-size: 18px;
 }
 
 /* Body */
 
 .learn {
-  height: 600px;
+  max-height: 882px;
   background-color: #d3d3d3;
+}
+
+.text {
+  float: right;
+}
+
+.text h1, .text h2, .text button {
+  margin: 20px 0;
+}
+
+.text button {
+  color: white;
+  background-color: #696969;
+  padding: 8px 50px;
+}
+
+.learn img {
+  max-width: 60%;
+  margin: 32px 24px;
 }
 
 .practice {
