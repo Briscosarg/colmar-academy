@@ -4,7 +4,7 @@
   font-family: Helvetica;
 }
 
-/* Header */
+/* Header   border: 1px solid red;  */
 
 header {
   height: 64px;
@@ -48,37 +48,65 @@ header {
   font-size: 18px;
 }
 
+
 /* Body */
 
-.learn {
-  max-height: 882px;
-  background-color: #d3d3d3;
-}
+/* First Section */
 
-.text {
-  float: right;
+.learn {
+  height: 882px;
+  background-color: #d3d3d3;
 }
 
 .text h1, .text h2, .text button {
   margin: 20px 0;
+  display: inline-block;
+}
+
+.text h1 {
+  font-size: 70px;
+  color: #696969;
+}
+
+.text h2 {
+  font-size: 35px;
+  color: #696969;
+  font-weight: 500;
+}
+
+.text {
+  position: relative;
+  top: 30%;
 }
 
 .text button {
   color: white;
   background-color: #696969;
-  padding: 8px 50px;
+  padding: 8px;
+  width: 563.969px;
+  font-size: 30px;
 }
 
 .learn img {
+  float: left;
   max-width: 60%;
-  margin: 32px 24px;
+  padding: 32px 24px;
+  padding-right: 48px;
 }
+
+/* Second Section */
 
 .practice {
   height: 600px;
 }
 
+/* Third Section */
+
 .learning {
   height: 600px;
   background-color: #d3d3d3;
+}
+
+.thesis {
+  height: 600px;
 }
